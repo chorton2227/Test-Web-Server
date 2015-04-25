@@ -1,7 +1,7 @@
 version: v1beta2
 containers:
-- name: test-web-server
-  image: gcr.io/test-web-server/test-web-server
+- name: {image-name}
+  image: gcr.io/{project-id}/{image-name}
   ports:
   - name: http
     hostPort: 80
